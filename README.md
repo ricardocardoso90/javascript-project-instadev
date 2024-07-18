@@ -1,5 +1,5 @@
 # Projeto 3 - Insta Dev.
-# Projeto feito durante o cursos dos 10 projetos feitos com HTML, CSS e JS.
+# Projeto feito durante o curso dos 10 projetos feitos com HTML, CSS e JS.
 
 Projeto desenvolvido durante o Curso B7Web. 
 
