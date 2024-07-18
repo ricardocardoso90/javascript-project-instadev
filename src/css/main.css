@@ -1,0 +1,106 @@
+main {
+  padding: 5rem;
+}
+
+main nav {
+  display: none;
+  position: fixed;
+  inset: 0 auto 0 0;
+  padding: 2rem 1rem;
+  border-right: 1px solid var(--secondary-foreground);
+}
+
+main nav .logo {
+  display: none;
+  width: 10rem;
+  height: 3.3rem;
+  cursor: pointer;
+  margin: 1rem 0 3rem 1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/logo-black.png);
+}
+
+main nav li a {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.7rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  transition: all ease .5s;
+}
+
+main nav li a:hover {
+  background-color: var(--secondary-foreground);
+}
+
+main nav li a.active {
+  font-weight: bold;
+}
+
+main nav li a span {
+  display: none;
+}
+
+main .area {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+main .area .feed-content {
+  width: 100%;
+  position: relative;
+}
+
+main .area aside {
+  display: none;
+  width: 30rem;
+}
+
+@media(prefers-color-scheme: dark) {
+  main nav .logo {
+    background-image: url(../assets/logo-white.png);
+  }
+}
+
+@media (width > 900px) {
+  main {
+    padding: 2rem 0 0 6rem;
+  }
+
+  main nav {
+    width: 6rem;
+    display: block;
+  }
+
+  main .area .feed-content {
+    max-width: 50rem;
+  }
+
+  main .area aside {
+    display: block;
+  }
+}
+
+@media (width > 1400px) {
+  main {
+    padding-left: 24rem;
+  }
+
+  main nav {
+    width: 24rem;
+  }
+
+  main nav .logo {
+    display: flex;
+  }
+
+  main nav li a span {
+    display: block;
+  }
+}

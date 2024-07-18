@@ -1,0 +1,49 @@
+:root {
+  --background: #FFF;
+  --secondary: #CCC;
+  --primary: #000000;
+  --secondary-foreground: #DDD;
+  --story-color1: #FEE700;
+  --story-color2: #EB0F7C;
+  --side-link: #0095F6;
+  --white: #FFF;
+}
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    --background: #000;
+    --secondary: #1212;
+    --primary: #F5F5F5;
+    --secondary-foreground: #737373;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--primary);
+  background-color: var(--background);
+  min-height: 100%;
+}
+
+.icon {
+  width: 2.3rem;
+  height: 2.3rem;
+  display: inline-block;
+}
+
+.icon svg {
+  color: var(--primary);
+}

@@ -1,0 +1,118 @@
+aside a {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: var(--side-link);
+}
+
+aside a:hover {
+  color: var(--primary);
+}
+
+aside .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+aside .user-avatar {
+  border-radius: 50%;
+  padding: 0.2rem;
+  border: 2px solid var(--secondary-foreground);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+aside .user-avatar img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+aside .user-info {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+aside .user-username {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+aside .user-name {
+  font-size: 1.5rem;
+  color: var(--secondary-foreground);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+aside .card {
+  margin-top: 2rem;
+}
+
+aside .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+aside .card .card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--secondary-foreground);
+}
+
+aside .card-actions a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+aside .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  margin: 1.5rem 0;
+}
+
+aside .suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+aside .suggestion-avatar img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+aside .suggestion-info {
+  flex: 1;
+}
+
+aside .suggestion-name {
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 0.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+aside .suggestion-text {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--secondary-foreground);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
