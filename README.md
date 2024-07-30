@@ -1,15 +1,15 @@
-# Projeto 3 - Insta Dev.
-# Projeto feito durante o curso dos 10 projetos feitos com HTML, CSS e JS.
+## Projeto: InstaDev
 
-Projeto desenvolvido durante o Curso B7Web. 
+**Tecnologias utilizadas:**
 
-Tecnologias utilizadas: HTML, CSS e JavaScript.
+- [HTML]()
+- [CSS]()
+- [Javascript]()
 
-<!-- ### Instalação:
+## Instalação:
 
-- `npm install` -->
+- `npm i ou npm install`
 
-### Para rodar:
+## Para rodar:
 
-- `Eu uso a extensão Live Server`
-- `Também pode ser executado direto pelo arquivo HTML`
+- `Live Server`
